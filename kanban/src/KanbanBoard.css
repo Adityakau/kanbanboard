@@ -1,0 +1,61 @@
+/* KanbanBoard.css */
+
+.kanban-board {
+    display: flex;
+  }
+  
+  .kanban-column {
+    flex: 1;
+    margin-right: 10px; /* Add some spacing between columns */
+  }
+  
+  .kanban-column:last-child {
+    margin-right: 0; /* Remove margin from the last column */
+  }
+  
+  .full-width {
+    flex: 1; /* Make the column take full width */
+  }
+  
+  .elements{
+    float:right;
+  }
+  
+  .add-card{
+    margin-right:10px;
+  }
+  
+  /* KanbanBoard.css */
+  .kanban-board {
+    display: flex;
+  }
+  
+  .kanban-column {
+    flex: 1;
+    margin-right: 10px; /* Add some spacing between columns */
+  }
+  
+  .kanban-column.full-width {
+    flex:auto; /* Make the column take full width */
+  }
+  
+  .elements {
+    float: right;
+  }
+  
+  .add-card {
+    margin-right: 10px;
+  }
+  .column-title {
+    font-weight: bold; /* Make the titles bold */
+  }
+  
+  .kanban-column {
+    flex: 1;
+    margin-right: 10px; /* Add some spacing between columns */
+    background-color: transparent; /* Remove white background */
+  }
+  /* Add other styles as needed */
+  
+  
+  
