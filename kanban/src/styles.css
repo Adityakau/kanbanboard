@@ -127,6 +127,56 @@ body {
   font-size: 10px; /* Make the font size smaller */ 
 }
 
+/* Add more colors to existing styles */
+
+/* Background color for the body */
+body {
+  background-color: #f0f0f0;
+}
+
+/* Background color for the header */
+.header {
+  background-color: #5a75c5; /* Dark blue color */
+  color: white; /* White text color */
+  border-bottom: 1px solid #77838e; /* Darker blue border for separation */
+}
+
+/* Background color for the display button */
+.display-button {
+  background-color: #3498db; /* Blue color for the button */
+  color: white; /* White text color */
+}
+
+/* Hover effect for the display button */
+.display-button:hover {
+  background-color: #2980b9; /* Darker blue color on hover */
+}
+
+/* Background color for the display options container */
+.display-options-container {
+  border-radius: 1000%;
+  background-color: #ffffff; /* Light gray color */
+}
+
+/* Background color for the display options */
+.display-options {
+  background-color: #cee7e7; /* Light gray color */
+}
+
+/* Background color for the dropdown label and options */
+.label,
+.select-dropdown {
+  background-color: #ecf0f1; /* Light gray color */
+}
+
+/* Additional Styles for Group By and Sort By Text */
+.label {
+  color: #2c3e50; /* Dark blue color for the label text */
+}
+
+.sort-by-label {
+  color: #2c3e50; /* Dark blue color for the sort by label text */
+}
 
 
 

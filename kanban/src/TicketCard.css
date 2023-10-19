@@ -46,7 +46,7 @@
   .cam-number {
     font-size: 10px;
     font-weight: bolder;
-    color: rgb(50, 48, 48);
+    color: rgb(44, 42, 42);
   }
   
   .user-info {
@@ -66,3 +66,171 @@
     margin-top: 6px;
   }
   
+  /* TicketCard.css */
+
+/* Existing styles remain unchanged */
+
+.ticket-card {
+  border: 2px solid #34db55; /* Border color for the card */
+  font-size: 10px;
+  border-radius: 12px;
+  padding: 15px;
+  margin: 10px;
+  width: calc(100% - 20px);
+  box-sizing: border-box;
+  background-color: #ffffff; /* White background for the card */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+/* Adjustments for different priorities */
+.ticket-card.priority-0 {
+  background-color: #f2f2f2; /* Light gray background for priority 0 */
+}
+
+.ticket-card.priority-1 {
+  background-color: #ffcccb; /* Light pink background for priority 1 */
+}
+
+.ticket-card.priority-2 {
+  background-color: #ffd699; /* Light orange background for priority 2 */
+}
+
+.ticket-card.priority-3 {
+  background-color: #c2f0c2; /* Light green background for priority 3 */
+}
+
+.ticket-card.priority-4 {
+  background-color: #b3b3cc; /* Light purple background for priority 4 */
+}
+
+/* Additional styles for user image */
+.user-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  float: right;
+  margin-bottom: 8px;
+  border: 2px solid #3498db; /* Border color for the image */
+} */
+
+/* Add other decorative and colorful styles as needed */
+
+/* TicketCard.css */
+
+/* Existing styles remain unchanged
+
+/* Border color for the card based on priority */
+.ticket-card {
+  border: 2px solid #34db39;
+  font-size: 10px;
+  border-radius: 12px;
+  padding: 15px;
+  margin: 10px;
+  width: calc(100% - 20px);
+  box-sizing: border-box;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+/* Adjustments for different priorities */
+.ticket-card.priority-0 {
+  background-color: #f2f2f2; /* Light gray background for priority 0 */
+}
+
+.ticket-card.priority-1 {
+  background-color: #ffcccb; /* Light pink background for priority 1 */
+}
+
+.ticket-card.priority-2 {
+  background-color: #ffd699; /* Light orange background for priority 2 */
+}
+
+.ticket-card.priority-3 {
+  background-color: #c2f0c2; /* Light green background for priority 3 */
+}
+
+.ticket-card.priority-4 {
+  background-color: #b3b3cc; /* Light purple background for priority 4 */
+}
+
+/* Additional styles for user image */
+.user-image {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  float: right;
+  margin-bottom: 8px;
+  border: 2px solid #3498db;
+}
+
+/* Styles for the feature request button */
+.feature-request-button {
+  background-color: #20cceb; /* Blue color for the button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.feature-request-button:hover {
+  background-color: #2980b9; /* Darker blue color on hover */
+}
+
+/* Add other decorative and colorful styles as needed */
+/* TicketCard.css */
+
+/* Existing styles remain unchanged */
+
+/* Border color for the card based on priority */
+.ticket-card {
+  font-family: 'Roboto', sans-serif; /* Change the font family to Roboto */
+  border: 2px solid #34db60;
+  font-size: 10px;
+  border-radius: 12px;
+  padding: 15px;
+  margin: 10px;
+  width: calc(100% - 20px);
+  box-sizing: border-box;
+  background-color: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+}
+
+/* Adjustments for different priorities */
+.ticket-card.priority-0 {
+  background-color: #f2f2f2; /* Light gray background for priority 0 */
+}
+
+/* ... (other styles remain unchanged) */
+
+/* Additional styles for user image */
+.user-image {
+  font-family: 'Roboto', sans-serif; /* Change the font family to Roboto */
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  object-fit: cover;
+  float: right;
+  margin-bottom: 8px;
+  border: 2px solid #3498db;
+}
+
+/* Styles for the feature request button */
+.feature-request-button {
+  font-family: 'Roboto', sans-serif; /* Change the font family to Roboto */
+  background-color: #3498db; /* Blue color for the button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* ... (other styles remain unchanged) */

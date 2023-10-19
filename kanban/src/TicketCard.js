@@ -4,7 +4,7 @@ import './TicketCard.css';
 const TicketCard = ({ ticket }) => {
   const getUserImage = (userId) => {
     // Replace this with actual logic to get user image
-    return `https://placekitten.com/50/50?user=${userId}`;
+    return `https://source.unsplash.com/featured/300x203=${userId}`;
   };
 
   return (
@@ -13,8 +13,7 @@ const TicketCard = ({ ticket }) => {
         <div className="user-info">
           <span className="cam-number">{ticket.id}</span>
           <img className="user-image" src={getUserImage(ticket.userId)} alt="User" />
-        </div>
-        {/* <div className="tag">{ticket.tag}</div> */}
+        </div>  
       </div>
       <div className="card-body">
         <div className="title">{ticket.title}</div>
